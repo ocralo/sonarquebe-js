@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/react,node,macos,windows,visualstudiocode,linux
-# Edit at https://www.toptal.com/developers/gitignore?templates=react,node,macos,windows,visualstudiocode,linux
+# Created by https://www.toptal.com/developers/gitignore/api/sonarqube,sonar,visualstudiocode,react,node,windows,linux,macos
+# Edit at https://www.toptal.com/developers/gitignore?templates=sonarqube,sonar,visualstudiocode,react,node,windows,linux,macos
 
 ### Linux ###
 *~
@@ -201,6 +201,23 @@ psd
 thumb
 sketch
 
+### Sonar ###
+#Sonar generated dir
+/.sonar/
+
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.sonarqube/
+.scannerwork/
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
@@ -246,4 +263,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/react,node,macos,windows,visualstudiocode,linux
+# End of https://www.toptal.com/developers/gitignore/api/sonarqube,sonar,visualstudiocode,react,node,windows,linux,macos
